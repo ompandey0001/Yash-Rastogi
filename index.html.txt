@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Food for Everyone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Healthy Food for Everyone</h1>
+        <nav>
+            <ul>
+                <li><a href="#athletes">For Athletes</a></li>
+                <li><a href="#patients">For Patients</a></li>
+                <li><a href="#recipes">Healthy Recipes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="athletes">
+            <h2>Healthy Food for Athletes</h2>
+            <p>Discover the best foods to fuel your workouts and enhance your performance.</p>
+            <ul>
+                <li>Lean Proteins</li>
+                <li>Whole Grains</li>
+                <li>Fruits and Vegetables</li>
+                <li>Healthy Fats</li>
+            </ul>
+        </section>
+
+        <section id="patients">
+            <h2>Healthy Food for Patients</h2>
+            <p>Learn about nutritious options that support recovery and overall health.</p>
+            <ul>
+                <li>Low-Sodium Foods</li>
+                <li>High-Fiber Foods</li>
+                <li>Antioxidant-Rich Foods</li>
+                <li>Hydrating Foods</li>
+            </ul>
+        </section>
+
+        <section id="recipes">
+            <h2>Healthy Recipes</h2>
+            <p>Try these delicious and nutritious recipes for a healthier lifestyle.</p>
+            <ul id="recipe-list">
+                <li>Quinoa Salad</li>
+                <li>Grilled Chicken with Vegetables</li>
+                <li>Fruit Smoothie</li>
+                <li>Oven-Baked Salmon</li>
+            </ul>
+            <button id="random-recipe-btn">Get a Random Recipe</button>
+            <p id="random-recipe" class="recipe-output"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>MADE BY YASH RASTOGI</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

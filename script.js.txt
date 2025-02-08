@@ -1,0 +1,18 @@
+document.getElementById('random-recipe-btn').addEventListener('click', function() {
+    const recipes = [
+        "Quinoa Salad",
+        "Grilled Chicken with Vegetables",
+        "Fruit Smoothie",
+        "Oven-Baked Salmon",
+        "Vegetable Stir-Fry",
+        "Chickpea Salad",
+        "Zucchini Noodles with Pesto",
+        "Baked Sweet Potatoes"
+    ];
+
+    const randomIndex = Math.floor(Math.random() * recipes.length);
+    const randomRecipe = recipes[randomIndex];
+
+    document.getElementById('random-recipe').innerText = "Random Recipe: " + randomRecipe;
+    document.getElementById('random-recipe').style.color = "#4CAF50"; // Change text color to green
+});
